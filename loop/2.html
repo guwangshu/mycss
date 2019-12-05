@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>change color</title>
+    <style type="text/css">
+        #bt1,#bt2,#bt3,#bt4{
+            width:40px;
+            height:40px;
+            border:2px solid green;
+
+        }
+        button{
+            color: blue;
+            text-align: center
+        }
+        button:hover{
+            color:red;
+        }
+    </style>
+
+</head>
+<body style="background-repeat:no-repeat;">
+    <div class="container">
+    <button id="bt1" onclick="document.body.style.backgroundImage='url(./images/1.jpg)'">1</button>
+    <button id="bt2" onclick="document.body.style.backgroundImage='url(./images/2.jpg)'">2</button>
+    <button id="bt3" onclick="document.body.style.backgroundImage='url(./images/3.jpg)'">3</button>
+    <button id="bt4" onclick="document.body.style.backgroundImage='url(./images/4.jpg)'">4</button>
+    </div>
+</body>
+</html>
